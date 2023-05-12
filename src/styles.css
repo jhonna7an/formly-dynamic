@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+
+formly-field-primeng-input .p-inputtext {
+  width: 100%;
+}
+
+.line-bottom {
+  border-bottom: 1px solid #919191;
+  margin-bottom: 10px;
+}
+
+.ischecked {
+  color: #ff6262;
+}

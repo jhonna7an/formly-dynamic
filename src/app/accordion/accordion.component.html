@@ -1,8 +1,8 @@
 
-<div class="card flex justify-content-center">
+<div class="card justify-content-center">
     <p-accordion [activeIndex]="0">
         <ng-container *ngFor="let item of field.fieldGroup; let i = index; let last = last;">
-            <p-accordionTab [header]="item?.templateOptions?.label">
+            <p-accordionTab [header]="item?.templateOptions['templateName']">
                 <formly-field [field]="item"></formly-field>
             </p-accordionTab>
         </ng-container>
